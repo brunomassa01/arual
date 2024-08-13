@@ -1,532 +1,545 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="Pt-Br">
+
 <head>
-    <title>Y-PAY | A Maneira inteligente para pagamentos digitais</title>
-    <!-- /SEO Ultimate -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta charset="utf-8">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Latest compiled and minified CSS -->
-    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
-    <!-- Font Awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- StyleSheet link CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/custom-style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/special-classes.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aureal || Sistema de pagamento de Alta performance</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
 </head>
-<body>
-<!--Header-->
-<header class="header">
-    <div class="container">
-        <nav class="navbar position-relative navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="./index.html"><figure class="mb-0"><img src="./assets/images/banner-logo.png" alt="" class="img-fluid"></figure></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#nossas-solucoes">Soluções</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#o-que-fazemos">Plataforma</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="https://ypay.readme.io/reference/introduction" target="_blank" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false"> Desenvolvedor </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link signup" href="https://app.ypay.com.br/login" target="_blank"><i class="fa-solid fa-user-lock"></i>Login</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
-<!--Banner-->
-<section class="bannermain position-relative">
-    <figure class="mb-0 bgshape">
-        <img src="./assets/images/homebanner-bgshape.png" alt="" class="img-fluid">
-    </figure>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                <div class="banner" data-aos="fade-right">
-                    <h6>Simples. Transparente. Seguro.</h6>
-                    <h1>A solução de pagamento <span>inteligente</span>para seu negócio.</h1>
-                    <p>Y-PAY: Simplificando Suas Transações, Potencializando Seu Negócio</p>
-                    <div class="button"><a  class="button_text" href="https://api.whatsapp.com/send?phone=5511987200777&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20*Y-PAY*">Começar a vender mais</a></div>
-                </div>
-            </div>
-            <div class=" col-lg-7 col-md-7 col-sm-12">
-                <div class="banner-wrapper">
-                    <figure class="mb-0 homeelement1">
-                        <img src="./assets/images/homeelement1.png" class="img-fluid" alt="">
-                    </figure>
-                    <figure class="mb-0 banner-image">
-                        <img src="./assets/images/homebanner-image.png" class="img-fluid" alt="banner-image">
-                    </figure>
-                    <figure class="mb-0 content img-bg">
-                        <img src="./assets/images/homebanner-img-bg.png" alt="banner-image-bg">
-                    </figure>
-                    <figure class="mb-0 homeelement">
-                        <img src="./assets/images/homeelement.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--What-we-do-->
-<section class="what-we-do position-relative" id="o-que-fazemos">
-    <div class="container">
-        <figure class="element1 mb-0">
-            <img src="./assets/images/what-we-do-icon-1.png" class="img-fluid" alt="">
-        </figure>
-        <div class="row">
-            <div class="col-12">
-                <div class="subheading" data-aos="fade-right">
-                    <h6>O que fazemos</h6>
-                    <h2>Na Y-PAY, você inicia suas vendas online com alta conversão e a segurança necessária para expandir o seu negócio.</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row position-relative">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1">
-                    <figure class="img">
-                        <img src="./assets/images/what-we-do-credit-debit-icon.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Soluções de pagamentos</h3>
-                    <p class="mb-0 text-size-18">Aceite todas as bandeiras e meios de pagamentos.</p>
-                </div>
-            </div>
-            <figure class="arrow1 mb-0" data-aos="fade-down">
-                <img src="./assets/images/what-we-do-arrow-1.png"  class="img-fluid" alt="">
-            </figure>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1 service2">
-                    <figure class="img">
-                        <img src="./assets/images/what-we-do-growth--icon.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Expansão de vendas</h3>
-                    <p class="mb-0 text-size-18">Foque no que é importante, na gestão do seu negócio.</p>
-                </div>
-            </div>
-            <figure class="arrow2 mb-0" data-aos="fade-up">
-                <img src="./assets/images/what-we-do-arrow-2.png"  class="img-fluid" alt="">
-            </figure>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1">
-                    <figure class="img">
-                        <img src="./assets/images/what-we-do-connected-people-icon.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Módulos integrados</h3>
-                    <p class="mb-0 text-size-18">Plataforma customizável, fácil e acessível para qualquer modelo de negócio.</p>
-                </div>
-            </div>
-            <figure class="element3 mb-0">
-                <img src="./assets/images/what-we-do-element.png" alt="">
-            </figure>
-        </div>
-        <div class="row">
-            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
 
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                <div class="account" data-aos="fade-right">
-                    <div class="accounticon">
-                        <figure class="mb-0">
-                            <img src="./assets/images/what-we-do-personal-account-icon.png" class="img-fluid" alt="">
-                        </figure>
-                    </div>
-                    <div class="heading">
-                        <h3 class="mb-0">TUDO EM UM ÚNICO LUGAR</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-sm-12 col-12">
-                <div class="account" data-aos="fade-right">
-                    <div class="accounticon">
-                        <figure class="mb-0">
-                            <img src="./assets/images/what-we-do-business-account-icon-2.png" class="img-fluid" alt="">
-                        </figure>
-                    </div>
-                    <div class="heading">
-                        <h3 class="mb-0">CONTA EMPRESARIAL</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-1 col-md-1 col-sm-12 col-12">
+<body class="light">
 
-            </div>
-            <figure class="element2 mb-0">
-                <img src="./assets/images/what-we-do-icon-2.png" class="img-fluid" alt="">
-            </figure>
-        </div>
+  <div class="zubuz-preloader-wrap">
+    <div class="zubuz-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-</section>
-<!--About Repay-->
-<section class="about-repay">
+  </div>
+
+
+
+
+  <header class="site-header site-header--menu-center zubuz-header-section" id="sticky-menu">
     <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-dark.png" alt="" class="light-version-logo">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link-item">QUEM SOMOS</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">SOLUÇÕES</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">DESENVOLVEDOR</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <div class="zubuz-header-btn-wrap">
+            <a class="zubuz-login-btn" href="#">LOGIN</a>
+          </div>
+          <a class="zubuz-default-btn zubuz-header-btn pill" href="#">
+            <span>CRIAR CONTA</span>
+          </a>
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger light">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+  <div class="zubuz-hero-section">
+    <div class="container">
+      <div class="zubuz-hero-content center">
+        <h1>
+          Sistema de pagamento de Alta Performance
+          <span class="zubuz-title-shape">
+          <img src="assets/images/v3/shape-v3-01.png" alt="">
+        </span>
+        </h1>
+        <p>Tecnologia, suporte e atendimento personalizado.</p>
+        <div class="zubuz-extara-mt">
+          <div class="zubuz-subscribe-three">
+            <form action="#">
+              <input type="email" placeholder="Seu melhor e-mail">
+              <button class="zubuz-default-btn zubuz-subscription-btn three" id="zubuz-subscription-btn" type="submit">
+                <span>Quero conhecer</span>
+              </button>
+              <div class="zubuz-input-email">
+                <img src="assets/images/icon/email2.svg" alt="">
+              </div>
+            </form>
+          </div>
+          <div class="zubuz-icon-list">
+            <ul>
+              <li><img src="assets/images/v3/check.png" alt=""> Seguro</li>
+              <li><img src="assets/images/v3/check.png" alt=""> Sem SPAM</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="zubuz-border-btoom">
+        <div class="zubuz-hero-thumb3">
+          <img src="assets/images/v3/thumb-v3-01.png" alt="">
+          <div class="zubuz-hero-thumb-card1">
+            <img src="assets/images/v3/card-v3-1.png" alt="">
+          </div>
+          <div class="zubuz-hero-thumb-card2">
+            <img src="assets/images/v3/card-v3-2.png" alt="">
+          </div>
+          <div class="zubuz-hero-thumb-card3">
+            <img src="assets/images/v3/card-v3-3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section zubuz-section-padding3">
+    <div class="container">
+      <div class="zubuz-section-title zubuz-two-column-title">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="about-wrapper">
-                    <figure class="circle mb-0">
-                        <img src="./assets/images/image-2-bg.png" alt="">
-                    </figure>
-                    <div class="position-relative">
-                        <a class="popup-vimeo" href="https://video-previews.elements.envatousercontent.com/h264-video-previews/d1c81f1e-849f-4d45-ae57-b61c2f5db34a/25628048.mp4">
-                            <figure class="mb-0 videobutton">
-                                <img class="thumb img-fluid" style="cursor: pointer" src="./assets/images/play-button.png" alt="">
-                            </figure>
-                        </a>
-                    </div>
-                    <figure class="image mb-0">
-                        <img src="./assets/images/image-2.png" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="homeelement mb-0">
-                        <img src="./assets/images/homeelement.png" alt="" class="img-fluid">
-                    </figure>
-                    <figure class="homeelement1 mb-0">
-                        <img src="./assets/images/homeelement.png" alt="" class="img-fluid">
-                    </figure>
-                </div>
+          <div class="col-lg-7">
+            <h2>Conheça os nossos Serviços</h2>
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <div class="zubuz-title-btn">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="about-content"  data-aos="fade-up">
-                    <h6>A Y-PAY</h6>
-                    <h2>Responsabilidade, confiança e credibilidade.</h2>
-                    <p class="text-size-18"></p>
-                    <p class="text-size-18 text">O seu negócio gerido de forma inteligente.</p>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon1.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Suporte ao cliente</span>
+              <p>Plataforma de engajamento de clientes que oferece ferramentas para emissão de tickets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon2.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Gerenciamento de projetos</span>
+              <p>Uma ferramenta de gerenciamento de projetos e tarefas que ajuda a planejar e organizar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon3.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Link de Pagamento</span>
+              <p>Venda seus produtos ou serviços por email, redes sociais, whatsapp, blog, SMS, etc</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon4.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Plataforma 100% WhiteLabel</span>
+              <p>Plataforma pronta para te atender sem necessidade de investimento em desenvolvimento.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon5.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Split e Multi EC</span>
+              <p>Otimização e segurança do processo de divisão de recebíveis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="zubuz-iconbox-wrap-left iconbox-left-border">
+            <div class="zubuz-iconbox-icon none-bg">
+              <img src="assets/images/v3/icon6.png" alt="">
+            </div>
+            <div class="zubuz-iconbox-data data-small">
+              <span>Gateway de Pagamento</span>
+              <p>Plataforma criptografada que garante total segurança nas transações.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
-<!--Services section-->
-<section class="service-section" id="nossas-solucoes">
+  </div>
+  <!-- End Section -->
+
+  <div class="section zubuz-section-padding5">
     <div class="container">
-        <div class="row position-relative">
-            <div class="service-content">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <figure class="mb-0 services-icon">
-                        <img src="./assets/images/services-our-services-icon-1.png" class="img-fluid" alt="">
-                    </figure>
-                    <h6>NOSSAS SOLUÇÕES</h6>
-                    <h2>Desenvolvimento inteligente para o seu negócio</h2>
-                    <figure class="service-image" data-aos="fade-up">
-                        <img src="./assets/images/services-our-services-image.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="zubuz-v3-thumb">
+            <img src="assets/images/v3/thumb-v3-2.png" alt="">
+            <div class="zubuz-v3-card">
+              <img src="assets/images/v3/card-v3-4.png" alt="">
             </div>
+          </div>
         </div>
-        <figure class="element1 mb-0">
-            <img src="./assets/images/what-we-do-icon-1.png" class="img-fluid" alt="">
-        </figure>
-        <div class="services-data">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="service-box">
-                        <figure class="img img1">
-                            <img src="./assets/images/services-payment-management-icon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="content">
-                            <h3>Gestão de pagamentos</h3>
-                            <p class="text-size-18">Pagamentos seguros e rápidos. Em todas as bandeiras e relatórios em um único lugar 💳🚀</p>
-                        </div>
-                    </div>
+        <div class="col-lg-7">
+          <div class="zubuz-default-content m-left">
+            <h2>Agilidade para se adaptar às necessidades do mercado</h2>
+            <p>A Aureal é uma plataforma para empresas Whitelabel e Market Places que te conecta com os principais players do mercado de cartões e te apoia na gestão financeira do seu negócio, seja qual for sua localidade no território nacional.</p>
+            <div class="zubuz-extara-mt">
+              <div class="zubuz-iconbox-wrap-left mw-100">
+                <div class="zubuz-iconbox-icon none-bg">
+                  <img src="assets/images/v3/icon11.png" alt="">
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="service-box">
-                        <figure class="img img2">
-                            <img src="./assets/images/services-dashboard-icon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="content">
-                            <h3>Relatórios completos</h3>
-                            <p class="text-size-18">Dashboard customizável e adequedo ao seu modelo de negócio.</p>
-                        </div>
-                    </div>
+                <div class="zubuz-iconbox-data data-small">
+                  <span>Implementação rápida</span>
+                  <p>Nossas soluções SaaS podem ser implementadas rapidamente, geralmente com apenas alguns cliques, reduzindo o tempo de configuração e permitindo startups imediatamente.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="service-box">
-                        <figure class="img img3">
-                            <img src="./assets/images/services-integrated-payment-icon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="content">
-                            <h3>Integração de pagamentos</h3>
-                            <p class="text-size-18">Online, Offline, links de pagamentos e integrações rápidas e seguras.</p>
-                        </div>
-                    </div>
+              </div>
+              <div class="zubuz-iconbox-wrap-left mw-100">
+                <div class="zubuz-iconbox-icon none-bg">
+                  <img src="assets/images/v3/icon10.png" alt="">
                 </div>
+                <div class="zubuz-iconbox-data data-small">
+                  <span>Start imediato</span>
+                  <p>Nossos clientes podem acelerar o lançamento de seus produtos ou serviços, ficar à frente da concorrência e alcançar os clientes mais rapidamente..</p>
+                </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="service-box">
-                        <figure class="img img4">
-                            <img src="./assets/images/services-friendly.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="content">
-                            <h3>Rastreamento de negócios</h3>
-                            <p class="text-size-18">Acompanhe em tempo real todas as vendas e faça gestão em um único lugar.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <figure class="mb-0 mobile-image" data-aos="fade-right">
-                        <img src="./assets/images/services-mobile-image.png" alt="" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="service-box">
-                        <figure class="img img5">
-                            <img src="./assets/images/services-credit-debit-icon.png" alt="" class="img-fluid">
-                        </figure>
-                        <div class="content">
-                            <h3>Crédito, débito e PIX</h3>
-                            <p class="text-size-18">Não importa como, você recebe, sem sustos e com agilidade.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <figure class="element2 mb-0">
-            <img src="./assets/images/what-we-do-icon-2.png" class="img-fluid" alt="">
-        </figure>
+      </div>
     </div>
-</section>
-<!-- manage -->
-<section class="manage-section">
+  </div>
+  <!-- End section -->
+
+  <div class="section zubuz-section-padding2 dark-bg">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-5 order-lg-2">
+          <div class="zubuz-v3-thumb2">
+            <img src="assets/images/v3/thumb-v3-3.png" alt="">
+            <div class="zubuz-v3-card2">
+              <img src="assets/images/v3/card-v3-5.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="zubuz-default-content m-right light">
+            <h2>Processo simples e econômico</h2>
+            <div class="zubuz-extara-mt">
+              <div class="zubuz-iconbox-wrap-left mw-100">
+                <div class="zubuz-iconbox-number">
+                  1
+                </div>
+                <div class="zubuz-iconbox-data data-small light">
+                  <span>Modelo baseado em assinatura:</span>
+                  <p>Opera em uma estrutura de pagamento baseada em assinatura, o que permite que os usuários paguem pelo software regularmente.</p>
+                </div>
+              </div>
+              <div class="zubuz-iconbox-wrap-left mw-100">
+                <div class="zubuz-iconbox-number">
+                  2
+                </div>
+                <div class="zubuz-iconbox-data data-small light">
+                  <span>Hospedagem em nuvem</span>
+                  <p>Servidores em nuvem, eliminando a necessidade de os usuários gerenciarem seus próprios custos de infraestrutura.</p>
+                </div>
+              </div>
+              <div class="zubuz-iconbox-wrap-left mw-100">
+                <div class="zubuz-iconbox-number">
+                  3
+                </div>
+                <div class="zubuz-iconbox-data data-small light">
+                  <span>Atualizações e manutenção automatizadas</span>
+                  <p>Gerencie atualizações de software, patches de segurança e manutenção para que os usuários sempre tenham acesso aos recursos mais recentes e seguros.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section zubuz-section-padding3">
+    <div class="container">
+      <div class="zubuz-section-title center">
+        <h3>Planejamento racional para crescimento rápido.</h3>
+      </div>
+      <div class="zubuz-accordion-wrap zubuz-accordion-wrap2" id="zubuz-accordion">
+        <div class="zubuz-accordion-item open">
+          <div class="zubuz-accordion-header">
+            <p>Para quem é a Aureal?</p>
+            <div class="zubuz-active-icon">
+              <img src="assets/images/v3/plus.png" alt="">
+            </div>
+            <div class="zubuz-inactive-icon">
+              <img src="assets/images/v3/minus.png" alt="">
+            </div>
+          </div>
+          <div class="zubuz-accordion-body">
+            <p> É ideal para eempreendedores que buscam simplicidade e segurança nas transações de pagamentos.</p>
+          </div>
+        </div>
+        <div class="zubuz-accordion-item">
+          <div class="zubuz-accordion-header">
+            <p>Quais são as vantagens de usar uma subcredenciadora?</p>
+            <div class="zubuz-active-icon">
+              <img src="assets/images/v3/plus.png" alt="">
+            </div>
+            <div class="zubuz-inactive-icon">
+              <img src="assets/images/v3/minus.png" alt="">
+            </div>
+          </div>
+          <div class="zubuz-accordion-body">
+            <p>As subcredenciadoras oferecem taxas competitivas, facilidade de integração e suporte dedicado, simplificando a gestão de pagamentos.</p>
+          </div>
+        </div>
+
+        <div class="zubuz-accordion-item">
+          <div class="zubuz-accordion-header">
+            <p>Como funciona a integração com minha loja online?</p>
+            <div class="zubuz-active-icon">
+              <img src="assets/images/v3/plus.png" alt="">
+            </div>
+            <div class="zubuz-inactive-icon">
+              <img src="assets/images/v3/minus.png" alt="">
+            </div>
+          </div>
+          <div class="zubuz-accordion-body">
+            <p>A integração é simples e rápida. Basta seguir nosso guia de integração para conectar sua loja e começar a aceitar pagamentos.</p>
+          </div>
+        </div>
+
+        <div class="zubuz-accordion-item">
+          <div class="zubuz-accordion-header">
+            <p>A Aureal atende a requisitos de segurança?</p>
+            <div class="zubuz-active-icon">
+              <img src="assets/images/v3/plus.png" alt="">
+            </div>
+            <div class="zubuz-inactive-icon">
+              <img src="assets/images/v3/minus.png" alt="">
+            </div>
+          </div>
+          <div class="zubuz-accordion-body">
+            <p>Sim, a Aureal utiliza tecnologia de criptografia avançada e está em conformidade com os padrões PCI-DSS para garantir a segurança dos dados.</p>
+          </div>
+        </div>
+
+        <div class="zubuz-accordion-item">
+          <div class="zubuz-accordion-header">
+            <p>Quais formas de pagamento a Aureal aceita?</p>
+            <div class="zubuz-active-icon plus">
+              <img src="assets/images/v3/plus.png" alt="">
+            </div>
+            <div class="zubuz-inactive-icon">
+              <img src="assets/images/v3/minus.png" alt="">
+            </div>
+          </div>
+          <div class="zubuz-accordion-body">
+            <p>A Aureal aceita pagamentos via cartão de crédito, débito e PIX, oferecendo flexibilidade e conveniência para seus clientes.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <!-- Footer  -->
+
+  <footer class="zubuz-footer-section dark-bg">
+    <div class="container">
+      <div class="zubuz-footer-extra-top">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="manage-content"  data-aos="fade-right">
-                    <h2>Todos os eventos <br> na palma da sua mão</h2>
-                    <div class="first">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-12">
-                                <figure class="mb-0 icon">
-                                    <img src="./assets/images/manageyour-user-friendly-icon.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-12 col-12">
-                                <div class="content">
-                                    <h4>Interface amigável</h4>
-                                    <p class="text-size-16 text">Não precisa saber programação para customizar a sua área de gestão.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="secound">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-12">
-                                <figure class="mb-0 icon">
-                                    <img src="./assets/images/manageyour-best-support-icon.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-12 col-12">
-                                <div class="content">
-                                    <h4>Suporte qualificado</h4>
-                                    <p class="text-size-16">Atendimento humano, com especialistas, onde e como você precisar.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="third">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-12">
-                                <figure class="mb-0 icon">
-                                    <img src="./assets/images/manageyour-secure-icon.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-12 col-12">
-                                <div class="content">
-                                    <h4>Segurança</h4>
-                                    <p class="text-size-16">Criptografia de ponta a ponta para que as suas vendas e pagamentos sejam seguros.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="col-lg-7">
+            <div class="zubuz-footer-extra-title">
+              <h2>Leve as suas vendas para o próximo nível</h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="manage-wrapper">
-                    <figure class="mb-0 homeelement1">
-                        <img src="./assets/images/homeelement1.png" class="img-fluid" alt="">
-                    </figure>
-                    <figure class="mb-0 manage-image">
-                        <img src="./assets/images/manage-your-everything-image.png" class="img-fluid" alt="">
-                    </figure>
-                    <figure class="mb-0 content img-bg">
-                        <img src="./assets/images/manageyour-mange-your-bg.png" alt="" class="">
-                    </figure>
-                    <figure class="mb-0 homeelement">
-                        <img src="./assets/images/homeelement.png" class="img-fluid" alt="">
-                    </figure>
-                </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <div class="zubuz-footer-btn">
+              <a class="zubuz-default-btn pill" href="#"><span>EU QUERO</span></a>
             </div>
+          </div>
         </div>
-    </div>
-    <figure class="mb-0 manage-layer">
-        <img src="./assets/images/mange-layer.png" alt="" class="img-fluid">
-    </figure>
-</section>
-<!-- need more help? -->
-<section class="need-section">
-    <div class="container">
+      </div>
+
+      <div class="zubuz-footer-top">
         <div class="row">
-            <div class="col-12">
-                <div class="content" data-aos="fade-right">
-                    <h6>PRECISA DE AJUDA?</h6>
-                    <h2>Facilitando o Crescimento do seu negócio.</h2>
-                    <p class="text-size-18">Todo o ambiente da Y-PAY é customizável e ajustada para as necessidades da sua empresa.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row position-relative">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1">
-                    <figure class="img img1">
-                        <img src="./assets/images/need-sales-icon.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Vendas</h3>
-                    <p class="text-size-18">Facilidade para receber pagamentos de diversas formas.</p>
-                    <a href="https://api.whatsapp.com/send?phone=5511987200777&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20*Y-PAY*" class="btn">Equipe comercial</a>
-                </div>
-            </div>
-            <figure class="arrow1 mb-0" data-aos="fade-down">
-                <img src="./assets/images/need-arrow1.png" class="img-fluid" alt="">
-            </figure>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1 service2">
-                    <figure class="img img2">
-                        <img src="./assets/images/need-more-icon2.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Suporte</h3>
-                    <p class="text-size-18">Atendimento humanizado</p>
-                    <a href="https://api.whatsapp.com/send?phone=5511987200777&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20*Y-PAY*" class="btn">Contato do suporte</a>
-                </div>
-            </div>
-            <figure class="arrow2 mb-0" data-aos="fade-up">
-                <img src="./assets/images/need-arrow-2.png" class="img-fluid" alt="">
-            </figure>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="service1">
-                    <figure class="img img3">
-                        <img src="./assets/images/need-more-icon-3.png" alt="" class="img-fluid">
-                    </figure>
-                    <h3>Relatórios</h3>
-                    <p class="text-size-18">Acompanhamento de vendas e gestão customizada.</p>
-                    <a href="https://api.whatsapp.com/send?phone=5511987200777&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20*Y-PAY*" class="btn">Conheça como funciona</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <figure class="mb-0 need-layer">
-        <img src="./assets/images/need-layer.png" alt="" class="img-fluid">
-    </figure>
-</section>
-<!-- Partner -->
-<!-- Footer -->
-<section class="footer-section">
-    <div class="container">
-        <div class="middle-portion">
-            <div class="row">
-                <div class="col-lg-4 col-md-5 col-sm-6 col-12">
-                    <a href="./index.html">
-                        <figure class="footer-logo">
-                            <img src="./assets/images/footer-logo.png" class="img-fluid" alt="">
-                        </figure>
+          <div class="col-xl-4 col-lg-12">
+            <div class="zubuz-footer-textarea light">
+              <a href="">
+                <img src="assets/images/logo/logo-white.png" alt="">
+              </a>
+              <p>A Aureal é uma plataforma para empresas Whitelabel e Market Places que te conecta com os principais players do mercado de cartões.</p>
+
+
+              <!--REDES SOCIAIS-->
+<div class="zubuz-social-icon social-box social-box-white">
+
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/company/ultralinks-brasil" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ultralinks_br/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+ </div>     
+<!--
+                <ul>
+                  <li>
+                    <a href="https://twitter.com/" target="_blank">
+                      <i class="fab fa-twitter"></i>
                     </a>
-                    <p class="text-size-16 footer-text">Responsabilidade, confiança e credibilidade.</p>
-                </div>
-                <div class="col-lg-1 col-md-1 col-sm-12 col-12 d-lg-block d-none">
+                  </li>
+                  <li>
+                    <a href="https://facebook.com/" target="_blank">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+ -->
+            </div>
+          </div>
 
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
-                    <div class="links">
-                        <h4 class="heading">Links</h4>
-                        <hr class="line">
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="./index.html" class=" text-size-16 text text-decoration-none">Home</a></li>
-                            <li><a href="#nossas-solucoes" class=" text-size-16 text text-decoration-none">Soluções</a></li>
-                            <li><a href="#o-que-fazemos" class=" text-size-16 text text-decoration-none">Plataforma</a></li>
-                            <li><a href="https://api.whatsapp.com/send?phone=5511987200777&text=Quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20*Y-PAY*" target="_blank" class=" text-size-16 text text-decoration-none">Contato</a></li>
-                            <li><a href="https://ypay.readme.io/reference/introduction" target="_blank" class=" text-size-16 text text-decoration-none">Desenvolvedor</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-12 col-12 d-lg-block d-none">
-                    <div class="links">
-                        <h4 class="heading">Suporte</h4>
-                        <hr class="line">
-                        <ul class="list-unstyled mb-0">
-                            <li><a href="https://u2pay.readme.io/reference/introduction" class=" text-size-16 text text-decoration-none">Suporte</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-sm-block" id="contato">
-                    <div class="icon">
-                        <h4 class="heading">Entre em contato</h4>
-                        <hr class="line">
-                        <ul class="list-unstyled mb-0">
-                            <li class="text-size-16 text">E-mail: <a href="mailto:suporte@ypay.com.br" class="mb-0 text text-decoration-none text-size-16">contato@ypay.com.br</a></li>
-                            <li class="text-size-16 text">Telefone: <a href="tel:+5511987200777" class="mb-0 text text-decoration-none text-size-16">+55 11 98720-0777</a></li>
-                        </ul>
-                    </div>
-                </div>
+<!--
+          <div class="col-xl-3 col-md-4">
+            <div class="zubuz-footer-menu light extar-margin">
+              <div class="zubuz-footer-title light">
+                <p>Navigation</p>
+              </div>
+              <ul>
+                <li><a href="">Demos</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
             </div>
-        </div>
-    </div>
-</section>
-<!--footer area-->
-<div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-size-16">Todos os direitos reservados @2024 Y-PAY</p>
+          </div>
+-->
+
+          <div class="col-xl-2 col-md-4">
+            <div class="zubuz-footer-menu light">
+              <div class="zubuz-footer-title light">
+                <p>Links úteis</p>
+              </div>
+              <ul>
+                <li><a href="https://Aureal.com.br/politicadeprivacidade/Aureal-Politica-de-Privacidade.pdf" target="_blank">Privacidade</a></li>
+                <li><a href="https://Aureal.com.br/termosdeuso/Aureal-Contrato-de-Prestacao-de-Servicos-de-Credenciamento.pdf" target="_blank">Termos de uso</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-xl-3 col-md-4">
+            <div class="zubuz-footer-menu light info extar-margin">
+              <div class="zubuz-footer-title light">
+                <p>Contato</p>
+              </div>
+              <ul>
+                <li><a href="maito:contato@ultralinks.com.br" target="_blank"><img src="assets/images/icon/email.svg" alt="">contato@ultralinks.com.br</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="zubuz-footer-bottom center light">
+        <div class="zubuz-copywright light">
+          <p> &copy;Todos os direitos reservados 2024 | Aureal</p>
+        </div>
+      </div>
     </div>
-</div>
-<!-- Latest compiled JavaScript -->
-<script src="assets/js/jquery-3.6.0.min.js"> </script>
-<script src="assets/js/bootstrap.min.js"> </script>
-<script src="assets/js/video_link.js"></script>
-<script src="./assets/js/video.js"></script>
-<script src="assets/js/counter.js"></script>
-<script src="assets/js/custom.js"></script>
-<script src="assets/js/animation_links.js"></script>
-<script src="assets/js/animation.js"></script>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+
+  <script src="assets/js/app.js"></script>
+
+
 </body>
 </html>
